@@ -8,7 +8,6 @@ Criar um CRUD de notícias, usando React, com os seguintes campos:
 - Conteúdo
 - Data de Publicação
 
-
 ## 👨🏼‍💻 Desenvolvedor
 
 - [Paulo Henrique Bernardes Martins](http://phdeveloper.com.br/)
@@ -39,28 +38,29 @@ Criar um CRUD de notícias, usando React, com os seguintes campos:
 3. Rode `cd ..` para voltar a pasta raiz do projeto;
 2. Entre na pasta `cd frontend/`;
 3. Rode `npm install` para instalar dependencias;
+3. Rode `npm start` para iniciar o projeto ReactJS;
 4. Verifique [http://localhost:3000/](http://localhost:3000/) se esta carrango no browser;
 
 ## 📚 Implementação
 
-O projeto em React chamado DesafioInfoGlobo é a pasta raiz do projeto:
+O projeto DesafioInfoGlobo esta dividio em duas partes:
 
 `Pasta => DesafioInfoGlobo`
 - `Pasta => backend`
 - `Pasta => frontend`
 
-Na pasta backend, temos os componentes dividido em home e template:
+Na pasta backend, temos os modulos python dividido em core e news:
 
 `Pasta => DesafioInfoGlobo => backend `
-- `Pasta => core` (Configuração basica para Django)
-- `Pasta => news` (App django com seus models, views e etc...)
+- `Pasta => core` (Configuração básica para Django)
+- `Pasta => news` (App Django com seus models, views e etc...)
 
 Na pasta `Pasta => frontend` encontramos os arquivos do ReactJS organizado:
 
 `Pasta => frontend => src`
 - `components` (Componentes utilizados)
 - `pages` (Paginas para adicionar, deletar, editar, lista os publicados e atualizar)
-- `services` (Chama para o backend com axios)
+- `services` (Chamada para o backend com axios)
 - `...`
 
 ---
