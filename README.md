@@ -36,7 +36,8 @@ Criar um CRUD de notícias, usando React, com os seguintes campos:
 ## 🔥 Instalação e execução frontend
 
 1. Faça um clone desse repositório;
-2. Entre na pasta `cd DesafioInfoGlobo/frontend/`;
+3. Rode `cd ..` para voltar a pasta raiz do projeto;
+2. Entre na pasta `cd frontend/`;
 3. Rode `npm install` para instalar dependencias;
 4. Verifique [http://localhost:3000/](http://localhost:3000/) se esta carrango no browser;
 
