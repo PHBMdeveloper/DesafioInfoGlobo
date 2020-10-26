@@ -43,7 +43,7 @@ Criar um CRUD de notícias, usando React, com os seguintes campos:
 
 ## 📚 Implementação
 
-O projeto DesafioInfoGlobo esta dividio em duas partes:
+O projeto DesafioInfoGlobo esta dividido em duas partes:
 
 `Pasta => DesafioInfoGlobo`
 - `Pasta => backend`
