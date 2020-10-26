@@ -11,9 +11,9 @@ services:
       - 27017:27017
 
   web:
-    build: .
+    build: backend
     volumes:
-      - .:/code
+      - .:/backend/code
     ports:
       - "8080:8080"
     extra_hosts:
