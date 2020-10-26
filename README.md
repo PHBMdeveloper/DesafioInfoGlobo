@@ -39,7 +39,7 @@ Criar um CRUD de notícias, usando React, com os seguintes campos:
 2. Entre na pasta `cd frontend/`;
 3. Rode `npm install` para instalar dependencias;
 3. Rode `npm start` para iniciar o projeto ReactJS;
-4. Verifique [http://localhost:3000/](http://localhost:3000/) se esta carrango no browser;
+4. Verifique [http://localhost:3000/](http://localhost:3000/) se esta carrangando no browser.
 
 ## 📚 Implementação
 
