@@ -10,8 +10,9 @@ services:
     ports:
       - 27017:27017
 
-  web:
-    build: backend
+  api:
+    build: backend .
+    container_name: api
     volumes:
       - .:/backend/code
     ports:
@@ -22,6 +23,17 @@ services:
       - mongo
     depends_on:
       - mongo
+
+  frontend:
+    build: frontend .
+    container_name: frontend
+    expose:
+      - 3000
+    ports:
+        - "3000:3000"
+    volumes:
+        - ./frontend/:/app
+    stdin_open: true
 
 volumes:
   mongodb:
