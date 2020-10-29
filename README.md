@@ -18,28 +18,23 @@ Criar um CRUD de notícias, usando React, com os seguintes campos:
 - ⚡ [NodeJS](https://nodejs.org/en/) — O Node.js® é um mecanismo para execução JavaScript independente usando JavaScript V8 do Chrome.
 - 💾 [Django REST framework](https://www.django-rest-framework.org/) — APIs da Web kit ferramentas para Python.
 - ⚡ [Django](https://www.djangoproject.com/) — Um framework web para Python.
-- 🐳 [Docker](https://www.docker.com/) — Uma Ajudamos desenvolvedores e equipes de desenvolvimento a criar e enviar aplicativos.
+- 🐳 [Docker](https://www.docker.com/) — Ajudamos desenvolvedores e equipes de desenvolvimento a criar e enviar aplicativos.
 - 🍃 [Mongodb](https://www.mongodb.com//) — O MongoDB é um banco de dados distribuído de propósito geral, baseado em documento, criado para desenvolvedores de aplicativos modernos e para a era da nuvem.
 
 ## ✋🏻 Pré-requisitos
 
-- [Docker](https://www.docker.com/) — Uma Ajudamos desenvolvedores e equipes de desenvolvimento a criar e enviar aplicativos.
+- [Docker](https://www.docker.com/) — Ajudamos desenvolvedores e equipes de desenvolvimento a criar e enviar aplicativos.
+- [Docker Compose](https://docs.docker.com/compose/install/) — Você pode executar o Compose no macOS, Windows e Linux de 64 bits.
 
-## 🔥 Instalação e execução backend
+## 🔥 Instalação e execução backend/frontend
 
 1. Faça um clone desse repositório;
-2. Entre na pasta `cd DesafioInfoGlobo/backend/`;
-3. Rode `./begin.sh` para instalar dependencias e subir o mongodb e django;
+2. Entre na pasta `cd DesafioInfoGlobo`;
+3. Rode `./begin.sh` para instalar dependencias e subir o Mongodb, Django e ReacjtJS; (Ubuntu)
+3a. Rode `./begin_macos.sh` para instalar dependencias e subir o Mongodb, Django e ReacjtJS; (MacOSX)
+3b. Rode `./begin.ps1` para instalar dependencias e subir o Mongodb, Django e ReacjtJS; (Windows 10 - powershell)
 4. Verifique [http://localhost:8080/](http://localhost:8080/) se a mensagem é `{"message": "ok"}` browser;
-
-## 🔥 Instalação e execução frontend
-
-1. Faça um clone desse repositório;
-3. Rode `cd ..` para voltar a pasta raiz do projeto;
-2. Entre na pasta `cd frontend/`;
-3. Rode `npm install` para instalar dependencias;
-3. Rode `npm start` para iniciar o projeto ReactJS;
-4. Verifique [http://localhost:3000/](http://localhost:3000/) se esta carrango no browser;
+5. Verifique [http://localhost:3000/](http://localhost:3000/) se esta carrango no browser;
 
 ## 📚 Implementação
 
