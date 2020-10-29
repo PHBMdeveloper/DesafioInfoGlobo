@@ -6,11 +6,11 @@ RUN mkdir /code
 
 WORKDIR /code
 
-ADD requirements.txt /code/
+ADD requirements.txt /code
 
 RUN pip install -r requirements.txt
 
-ADD . /code/
+ADD . /code
 
 RUN apt update
 

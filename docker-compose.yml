@@ -2,7 +2,6 @@ version: "3"
 services:
   mongo:
     image: mongo:latest
-    restart: always
     container_name: mongo
     volumes:
       - mongodb:/data/db
@@ -10,10 +9,11 @@ services:
     ports:
       - 27017:27017
 
-  web:
-    build: .
+  api:
+    build: backend 
+    container_name: api
     volumes:
-      - .:/code
+      - .:/backend/code
     ports:
       - "8080:8080"
     extra_hosts:
@@ -22,6 +22,17 @@ services:
       - mongo
     depends_on:
       - mongo
+
+  frontend:
+    build: frontend 
+    container_name: frontend
+    expose:
+      - 3000
+    ports:
+        - "3000:3000"
+    volumes:
+        - .:/frontend/app
+    stdin_open: true
 
 volumes:
   mongodb:
