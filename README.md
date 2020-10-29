@@ -30,8 +30,7 @@ Criar um CRUD de notícias, usando React, com os seguintes campos:
 1. Faça um clone desse repositório;
 2. Entre na pasta `cd DesafioInfoGlobo/backend/`;
 3. Rode `./begin.sh` para instalar dependencias e subir o mongodb e django(Linux);
-4. Rode `./begin_macos.sh`(MacOS);
-5. Verifique [http://localhost:8080/](http://localhost:8080/) se a mensagem é `{"message": "ok"}` browser;
+4. Verifique [http://localhost:8080/](http://localhost:8080/) se a mensagem é `{"message": "ok"}` browser;
 
 ## 🔥 Instalação e execução frontend
 
