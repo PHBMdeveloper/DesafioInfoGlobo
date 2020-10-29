@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import Sidebar from '../components/Sidebar'
 import Newscard from '../pages/pagenews'
-import { useParams } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import api from '../services/api';
 
 
 function Deletenews() {
-  // const history = useHistory()
+  const history = useHistory()
 
   // const [title, setTitle] = useState('')
   // const [content, setContent] = useState('')
@@ -25,7 +25,7 @@ function Deletenews() {
       // setTitle(response.data.title)
       // setContent(response.data.content)
       // setPublished(response.data.published)
-      // history.push('/edit')
+      history.push('/edit')
       // window.location.reload(true);
     }
     getNews()
