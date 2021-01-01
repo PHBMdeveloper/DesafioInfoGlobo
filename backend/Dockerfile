@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 
 ADD . /code
 
-RUN apt update
+RUN apt-get update
 
 RUN chmod +x ./start.sh
 ENTRYPOINT ["./start.sh"]
